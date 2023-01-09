@@ -62,7 +62,7 @@ const MyProSidebar = () => {
         "& .menu-icon": {
           backgroundColor: "transparent !important",
         },
-        "& .menu-item": {
+        "& .ps-menu-button": {
           // padding: "5px 35px 5px 20px !important",
           backgroundColor: "transparent !important",
         },
@@ -70,11 +70,11 @@ const MyProSidebar = () => {
           color: "inherit !important",
           backgroundColor: "transparent !important",
         },
-        "& .menu-item:hover": {
+        "& .ps-menu-button:hover": {
           color: `${colors.blueAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
-        "& .menu-item.active": {
+        "& .ps-menu-button.active": {
           color: `${colors.greenAccent[500]} !important`,
           backgroundColor: "transparent !important",
         },
@@ -126,6 +126,8 @@ const MyProSidebar = () => {
               </Box>
             )}
           </MenuItem>
+
+          {/* image part */}
           {!collapsed && (
             <Box mb="25px">
               <Box

@@ -2,23 +2,20 @@ import React from "react";
 import { ColorModeContext, useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
-import Topbar from "./scence/global/Topbar";
-import Dashboard from "./scence/dashboard";
-import { MyProSidebarProvider } from "./scence/global/sidebarContext";
+import Topbar from "./pages/global/Topbar";
+import Dashboard from "./pages/dashboard";
+import { MyProSidebarProvider } from "./pages/global/sidebarContext";
 
-// https://codesandbox.io/s/react-dashboard-pnm6fh?file=/src/theme.js:0-5199
-
-// import Sidebar from "./scence/global/Sidebar";
-import Team from "./scence/team";
-import Contacts from "./scence/contacts";
-import Invoices from "./scence/invoices";
-import Form from "./scence/form";
-import Calendar from "./scence/calendar";
-import FAQ from "./scence/faq";
-import Bar from "./scence/bar";
-import Pie from "./scence/pie";
-import Line from "./scence/line";
-import Geography from "./scence/geography";
+import Team from "./pages/team";
+import Contacts from "./pages/contacts";
+import Invoices from "./pages/invoices";
+import Form from "./pages/form";
+import Calendar from "./pages/calendar";
+import FAQ from "./pages/faq";
+import Bar from "./pages/bar";
+import Pie from "./pages/pie";
+import Line from "./pages/line";
+import Geography from "./pages/geography";
 
 function App() {
   const [theme, colorMode] = useMode();

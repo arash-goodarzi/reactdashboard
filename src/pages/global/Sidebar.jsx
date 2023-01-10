@@ -156,7 +156,7 @@ const MyProSidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Arash Goodarzi
+                  Salesman
                 </Typography>
               </Box>
             </Box>
@@ -179,14 +179,14 @@ const MyProSidebar = () => {
               Data
             </Typography>
             <Item
-              title="Manage Team"
+              title="Sellers "
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Customer Information"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
@@ -208,21 +208,21 @@ const MyProSidebar = () => {
               Pages
             </Typography>
             <Item
-              title="Profile Form"
+              title="Events Form"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
+              title="Events Calendar"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="FAQ Page"
+              title="Mission Page"
               to="/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
@@ -237,28 +237,28 @@ const MyProSidebar = () => {
               Charts
             </Typography>
             <Item
-              title="Bar Chart"
+              title="Inventory"
               to="/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Pie Chart"
+              title="Market share"
               to="/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Line Chart"
+              title="Sales"
               to="/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Geography Chart"
+              title="Export"
               to="/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}

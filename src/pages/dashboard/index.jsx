@@ -14,6 +14,7 @@ import BarChart from "../../components/BarChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
 import { tokens } from "../../theme";
+import CircularProgressBar from "../../components/CircularProgressBar";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -234,7 +235,14 @@ const Dashboard = () => {
             alignItems="center"
             mt="25px"
           >
-            <ProgressCircle size="125" />
+            {/* <ProgressCircle size="125" /> */}
+            <CircularProgressBar
+              // progress="45"
+              circleWidth="120"
+              radius="48"
+              strokeWidth="10"
+            />
+
             <Typography
               variant="h5"
               color={colors.greenAccent[500]}

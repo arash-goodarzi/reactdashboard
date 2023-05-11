@@ -1,6 +1,6 @@
 {
   "homepage": "https://arash-goodarzi.github.io/react-dashboard/",  
-  "name": "react-admin",
+  "name": "react-dashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

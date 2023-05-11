@@ -22,9 +22,9 @@ const CircularProgressBar = ({
       >
         <defs>
           <linearGradient id="gradient">
-            <stop offset="10%" stop-color="#12c2c2e9" />
-            <stop offset="50%" stop-color="#c471ed" />
-            <stop offset="100%" stop-color="#f64f59" />
+            <stop offset="10%" stopColor="#12c2c2e9" />
+            <stop offset="50%" stopColor="#c471ed" />
+            <stop offset="100%" stopColor="#f64f59" />
           </linearGradient>
         </defs>
         <circle

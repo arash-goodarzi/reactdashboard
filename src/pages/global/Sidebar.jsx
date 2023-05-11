@@ -1,4 +1,5 @@
 // docs https://github.com/azouaoui-med/react-pro-sidebar
+
 import React, { useState } from "react";
 import { Menu, Sidebar, MenuItem } from "react-pro-sidebar";
 import { useProSidebar } from "react-pro-sidebar";
@@ -145,7 +146,7 @@ const MyProSidebar = () => {
                   alt="profile user"
                   width="100px"
                   height="100px"
-                  src={"../../assets/user.png"}
+                  src="/assets/user.png"
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>

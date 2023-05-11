@@ -1,6 +1,6 @@
 {
-  "homepage": "https://arash-goodarzi.github.io/react-dashboard/",  
-  "name": "react-dashboard",
+  "homepage": "https://arash-goodarzi.github.io/reactdashboard/",  
+  "name": "reactdashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

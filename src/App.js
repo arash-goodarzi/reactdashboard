@@ -21,7 +21,7 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   const [theme, colorMode] = useMode();
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>
           <CssBaseline />

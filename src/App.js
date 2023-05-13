@@ -16,12 +16,11 @@ import Bar from "./pages/bar";
 import Pie from "./pages/pie";
 import Line from "./pages/line";
 import Geography from "./pages/geography";
-import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   const [theme, colorMode] = useMode();
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <ColorModeContext.Provider value={colorMode}>
         <ThemeProvider theme={theme}>
           <CssBaseline />
@@ -48,7 +47,6 @@ function App() {
           </MyProSidebarProvider>
         </ThemeProvider>
       </ColorModeContext.Provider>
-    </BrowserRouter>
   );
 }
 
